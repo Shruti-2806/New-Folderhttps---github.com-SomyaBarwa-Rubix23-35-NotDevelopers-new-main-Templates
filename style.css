@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.para{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: bisque;
+    font-size: 30px;
+    justify-content:center;
+  align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:3rem 3rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:800px;
+    left:200px;
+   
+}
+.next{
+    position: absolute;
+    top:1000px;
+    font-size: 30px;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top:235px;
+    height: 70px;
+   
+}
+#contact{
+    transform: translate(200px 100%);
+}
